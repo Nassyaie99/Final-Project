@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<title>MUAZ PHOTOGRAPHY</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+
+.container { 
+  position: relative;
+  width: 100%; 
+  overflow: hidden; 
+  padding-top: 56.25%;
+   /* 16:9 Aspect Ratio */
+}
+.responsive-iframe { 
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
+border: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block">Packages</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">About</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>MUAZ PHOTOGRAPHY</b></h1>
+    <p></p>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="img/DSC02679.JPG" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">WEDDING</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="img/photo_2021-04-30_17-20-59.jpg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">EDITED</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="img/photo_2021-04-30_18-00-53.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">OUTDOOR</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <h3>Party Event</h3>
+      <p>Let us bring your special moments back to life in the form of fine art.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+      <h3>Wedding</h3>
+      <p>Capturing the special bonds between you and your partner with dedication and sensitivity.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3>Editing</h3>
+      <p>We very profesional to edit your photo and enhanced to make an art gallery of memories.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3>Outdoor</h3>
+      <p>We master the skills needed for successful landscape, wildlife and nature photography with expert instruction.</p>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h3>Pricing Packages</h3>
+      <p>Choose a pricing package that fits your needs.</p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Package A</li>
+        <li class="w3-padding-16"><b>150</b> Shoot</li>
+        <li class="w3-padding-16"><b>2</b> Hours Event</li>
+        <li class="w3-padding-16"><b>No Pictures</b> Edited</li>
+        <li class="w3-padding-16"><b>Only</b> Softcopy</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">RM 350</h2>
+          
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Package B</li>
+        <li class="w3-padding-16"><b>300</b> Shoot</li>
+        <li class="w3-padding-16"><b>4</b> Hours</li>
+        <li class="w3-padding-16"><b>Only 100 Pictures</b> Edited</li>
+        <li class="w3-padding-16"><b>Only </b> Softcopy</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">RM 700</h2>
+          
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Package C</li>
+        <li class="w3-padding-16"><b>Unlimited</b> Shoot</li>
+        <li class="w3-padding-16"><b>Unlimited</b> Time</li>
+        <li class="w3-padding-16"><b>All Pictures</b> Edited</li>
+        <li class="w3-padding-16"><b>Softcopy and</b> Photobook</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">RM 1100</h2>
+          
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who Am I</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="img/WhatsApp Image 2021-11-07 at 10.28.20 PM (1).jpeg" alt="Muaz" style="width:100%">
+        <div class="w3-container">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="img/WhatsApp Image 2021-11-07 at 10.28.20 PM.jpeg" alt="Muaz" style="width:100%">
+        <div class="w3-container">
+          <h3>Muhd Muaz</h3>
+          <p class="w3-opacity">Founder</p>
+          <p>2 years of experience in photography. Expert in editing software like Adobe Photoshop,lightroom,and illutrasion.</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="img/WhatsApp Image 2021-11-07 at 10.28.20 PM (2).jpeg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
+  </div>
+
+  <form class="w3-container" action="contact.php" target="_blank">
+    <div class="w3-section">
+      <label>Name</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="name" required>
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="email" required>
+    </div>
+    <div class="w3-section">
+      <label>Message</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="message" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-black">Send</button>
+  </form>
+
+</div>
+
+
+<!--Map-->
+<div id="location" class="w3-container w3-row w3-light-grey">
+
+  <div class="w3-container w3-twothird"> 
+    <h2>Location</h2>
+    <div class="container"> 
+    <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d16867.96394144399!2d100.8110828400874!3d3.9564566051988983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparit%203%20sungai%20pergam!5e0!3m2!1sen!2smy!4v1636339569435!5m2!1sen!2smy" 
+    width="auto" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<p>Parit 3, Sungai Pergam, <br> 36100 Bagan Datuk, <br> Perak.
+
+
+</div>
+
+<div class="w3-display-container w3-third w3-padding-24 w3-hide-small">
+<div class="w3-row w3-padding-32" style="height:500px">
+<i class="fa fa-map w3-display-middle w3-padding w3-text-blue"
+style="font-size:128px "></i>
+</div>
+
+</div> </div>
+
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>Follow Me</h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    
+  </div>
+  <p>
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>

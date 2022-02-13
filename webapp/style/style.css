@@ -1,0 +1,77 @@
+@media screen and (min-width: 1920px) {
+    body {
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .form-container {
+        max-width: 500px;
+        margin: auto;
+    }
+    
+}
+
+body,html {height: 100%;}
+        body,h1,h2,h3,h4,h5,h6 {font-family: 'Times New Roman', Georgia, serif;}
+        
+        @media screen and (min-width: 1920px) {
+            body {
+                max-width: 60%;
+                margin: auto;
+            }
+        }
+        .bgimg1 {
+            background-position: center;
+            background-size: cover;
+            background-image: url("../images/header.jpg");
+            min-height: 75%;
+        }
+
+        
+@media screen and (min-width: 601px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }}
+    
+@media screen and (min-width: 1920px) {
+    body {
+        max-width: 60%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 601px) {
+    .form-container {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .w3-image{
+        width: auto;
+        height: auto;
+        object-fit: fill;
+    }
+}
+
+@media screen and (min-width: 601) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .w3-image{
+        width: auto;
+        height: auto;
+        object-fit: fill;
+    }
+    body {
+        margin: auto;
+    }
+}
